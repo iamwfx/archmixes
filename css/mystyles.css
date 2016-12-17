@@ -1,8 +1,9 @@
 .a {
-  position: absolute;
+  position: fixed;
+  top: 0em;
   width: 80%;
   margin:0 auto;
-  height: 80%;
+  height: 90%;
   z-index: -100;
   opacity: 0.2;
   background: #FE08D5;
