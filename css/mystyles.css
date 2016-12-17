@@ -1,0 +1,33 @@
+.a {
+  position: absolute;
+  width: 100%;
+  height: 80%;
+  z-index: -100;
+  opacity: 0.08;
+  background: #FE08D5;
+}
+
+.rotate1{
+	-webkit-transform: rotate(-35deg);
+    -moz-transform: rotate(-35deg);
+    -ms-transform: rotate(-35deg);
+    -o-transform: rotate(-35deg);
+    transform: rotate(-35deg);
+}
+
+
+.rotate2{
+	-webkit-transform: rotate(115deg);
+    -moz-transform: rotate(115deg);
+    -ms-transform: rotate(115deg);
+    -o-transform: rotate(115deg);
+    transform: rotate(115deg);
+}
+
+.rotate3{
+	-webkit-transform: rotate(215deg);
+    -moz-transform: rotate(215deg);
+    -ms-transform: rotate(215deg);
+    -o-transform: rotate(215deg);
+    transform: rotate(215deg);
+}
