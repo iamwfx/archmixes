@@ -1,9 +1,10 @@
 .a {
   position: absolute;
-  width: 100%;
+  width: 80%;
+  margin:0 auto;
   height: 80%;
   z-index: -100;
-  opacity: 0.1;
+  opacity: 0.2;
   background: #FE08D5;
   background: -webkit-linear-gradient(#FE08D5,#00FFFF); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(#FE08D5,#00FFFF); /* For Opera 11.1 to 12.0 */
@@ -42,4 +43,25 @@
     -ms-transform: rotate(-15deg);
     -o-transform: rotate(-15deg);
     transform: rotate(-15deg);
+}
+
+#footer{
+
+ width: 8%;
+ margin-left:92%;
+ margin-top:-70em;
+ font-size:60%; 
+ font-style: italic;
+
+}
+
+.images1{
+ position: absolute;
+
+/*  width: 80%;
+  margin:0 auto;
+  height: 80%;*/
+  opacity: 0.9;
+  z-index: -80;
+
 }
