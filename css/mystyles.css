@@ -1,11 +1,13 @@
+body { cursor: crosshair; }
+
 .a {
-  position: fixed;
+  position: absolute;
   top: 0em;
-  width: 80%;
+  width:100%;
   margin:0 auto;
   height: 90%;
   z-index: -100;
-  opacity: 0.2;
+  opacity: 0.15;
   background: #FE08D5;
   background: -webkit-linear-gradient(#FE08D5,#00FFFF); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(#FE08D5,#00FFFF); /* For Opera 11.1 to 12.0 */
@@ -13,6 +15,9 @@
   background: linear-gradient(#FE08D5,#00FFFF); /* Standard syntax */
 }
 
+.disappear{
+  display: none;
+}
 .rotate1{
 	-webkit-transform: rotate(-35deg);
     -moz-transform: rotate(-35deg);
@@ -47,10 +52,12 @@
 }
 
 #footer{
+ /*position: fixed;*/
 
- width: 8%;
- margin-left:92%;
- margin-top:-70em;
+ padding-left:12%;
+ width: 10%;
+ margin-left:90%;
+ margin-top:10em;
  font-size:60%; 
  font-style: italic;
 
@@ -67,7 +74,17 @@
 
 }
 
-#buttonstylz{
+#buttonstylz1{
+  position:fixed;
+  top: 1em;
+  right:15em;
+/*  margin-left: 80%;
+  margin-top: -20em;*/
+  border: 3px solid #0000ff;
+  color: #0000ff;
+  z-index:2000;
+}
+#buttonstylz2{
   position:fixed;
   top: 5em;
   right:15em;
@@ -78,7 +95,15 @@
   z-index:2000;
 
 }
+#titlestylz{
+  position:fixed;
+  top: 1em;
+  left:40%;
+  font-size:3em;
 
+  z-index:2000;
+
+}
 
 /* The Modal (background) */
 .modal {
@@ -117,4 +142,9 @@
     color: black;
     text-decoration: none;
     cursor: pointer;
+}
+
+#addimages {
+  width::100%;
+  height: 100%;
 }
