@@ -25,7 +25,7 @@ window.onclick=function(){
 				img.style.position ="fixed";
 				img.style.top= Math.round(Math.random()*50)+'em';
 				img.style.left= Math.round(Math.random()*60)+'em';
-
+				img.style.boxShadow= "0 10px 100px 0 pink, 0 6px 20px 0 pink";
 
 				// var img=document.createElement("img");
 			 //    img.src=image
