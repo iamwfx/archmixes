@@ -1,5 +1,5 @@
 window.onclick=function(){
-	images =$.getJSON("https://api.pinterest.com/v1/boards/770537886184397995/pins/?access_token=AZpeiD5Xa9FUYzdJDzdrD3UkSyL9FJE0rKuSo9BDo4KZeABB1wAAAAA&fields=image",
+	images =$.getJSON("https://api.pinterest.com/v1/boards/770537886184397995/pins/?access_token=Afx967w285nnrNzY7SLNKhuYzo50FJIuyPkFd6lDo4KZeABB1wAAAAA&fields=image%2Coriginal_link",
 	// var counter = 0;
 	
 	// console.log(images);

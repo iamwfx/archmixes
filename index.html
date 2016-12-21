@@ -32,8 +32,7 @@
   <!-- Scripts -->
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-
-
+ 
 </head>
 <body>
 
@@ -66,7 +65,7 @@
     <div id="myModal" class="modal">
     <div class="modal-content">
       <span class="close">&times;</span>
-      <iframe width="960" height="630" src="https://www.youtube.com/embed/4JipHEz53sU" frameborder="0" allowfullscreen></iframe>
+      <iframe id='myIframe' src="https://www.youtube.com/embed/4JipHEz53sU" frameborder="0" allowfullscreen></iframe>
     </div>
 
   </div>
@@ -82,7 +81,7 @@
       </div>
 
       <div class="one column rotate2" id="twitter" style="padding-left:6em;">
-        <a href="https://twitter.com/archmixes" target="_blank">
+        <a id="twitter" href="https://twitter.com/archmixes" target="_blank">
          <img src="images/twitter.svg" width="40" height="40" style="padding-left:0.6em">
         </a>
        <!-- <h6> twitter </h6> -->
@@ -139,7 +138,7 @@
       </div>
    
       <div class="one column rotate4"  style="padding-left:2em;">
-        <a href="http://sketchfab.com/samtous" target="_blank">
+        <a href="http://sketchfab.com/samtous/models" target="_blank">
           <img src="images/sketchfab.svg" width="40" height="40" style="padding-left:1.2em">
         </a>
       <!--  <h6> sketchfab </h6> -->
@@ -169,7 +168,7 @@
 
 
       <div class="one column rotate2"  style="padding-left:6em;">
-        <a href="arch-mixes.myshopify.com/collections/all" target="_blank">
+        <a href="arch-mixes.myshopify.com/" target="_blank">
           <img src="images/shopify.svg" width="40" height="40" style="padding-left:1.2em">
         </a>
       </div>
@@ -249,6 +248,7 @@ var span = document.getElementsByClassName("close")[0];
 // When the user clicks the button, open the modal 
 btn.onclick = function() {
     modal.style.display = "block";
+    
 }
 
 // When the user clicks on <span> (x), close the modal
@@ -267,6 +267,13 @@ window.onclick = function(event) {
         $('.appear').show();
     }
 });
+
+// CHANGE TO MOBILE TWITTER IF ON MOBILE 
+var twitter = document.getElementById('twitter');
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+  twitter.href = "https://mobile.twitter.com/archmixes"
+}
+
 }</script>
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
